@@ -1,0 +1,471 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d4d3d3;
+    cursor:auto;
+}
+.icon {
+    position: fixed;  
+    right: 20px;      
+    bottom: 20px;    
+    z-index: 1000;    
+    height: 30px;
+    width: 30px;
+  }
+  
+
+/* Header Styles */
+.header {
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.container p {
+    margin: 10px 0 20px;
+    font-size: 1.2rem;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+/*about me styles */
+.container1{
+    background-color: white;
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 300px;
+}
+
+.about h2 {
+    font-size: 2rem;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.project-feature,.project-description, .project-image{
+    width: 100%;
+    display: inline-block;
+}
+.project-description {
+    width: 220px;
+    height:210px ;
+    background-color: #4F6F52;
+    color: rgb(19, 16, 16);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.project-description h3 {
+    font-size: 1.2rem;
+}
+
+.project-description p {
+    font-size: 1rem;
+}
+
+.project-image {
+    width: 50%;
+    text-align: right;
+}
+
+.project-image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/*skills style*/
+.skills{
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 150px;
+    background-image: url("/images/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skills-back{
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    background-color: white;
+    height: 80px;
+    opacity: 0.4;
+}
+.action button{
+    height: 40px;
+    max-width: 200px;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 6px;
+    margin-right: 6px;
+    color: rgb(255, 250, 250);
+    background-color: green;
+    font-weight: bold;
+    position:relative;
+    transition: transform 0.3s ease; /* Adds a smooth transition effect */
+
+}
+.action button:hover{
+    bottom: 5px;
+    background-color: rgb(2, 87, 2);
+    cursor: pointer;
+}
+/*projects style*/
+.projects {
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+    height: 900px;
+}
+
+.project1 {
+    height: 280px;
+    width: 220px;
+    background-color: #C9DABF;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+}
+
+.project2 {
+    height: 280px;
+    width: 220px;
+    background-color: #9CA986;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 2px;
+}
+
+.project3 {
+    height: 240px;
+    width: 1400px;
+    background-color: #808D7C;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+}
+/*contact me style*/
+.contact-form {
+    padding: 20px;
+    background-color: #f7f6f6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+    color: white;
+}
+input:focus, textarea:focus {
+    border-color: #4CAF50; /* Green color when focused */
+    outline: none; /* Remove default outline */
+}
+/*footer style*/
+.footer{
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #333;
+}
+.footer-nav{
+text-align: center;
+}
+
+.footer-nav ul {
+    list-style: none;
+    display: inline-block;
+}
+.footer-nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.footer-nav ul li a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.footer-nav  ul li a:hover {
+    color: white;
+}
+.footer-nav span {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
